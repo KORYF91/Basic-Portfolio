@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: aliceblue;
+    }
+header{
+    padding: 25px;
+    margin-bottom: 25px;
+    color: grey;
+    background-color: antiquewhite;
+    }
+#yourname{
+    float: left;
+    margin-left: 35px;
+    padding: 5px;
+    text-decoration-color: whitesmoke;
+    background: rgb(49, 223, 199)
+    }
