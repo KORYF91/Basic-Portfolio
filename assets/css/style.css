@@ -1,36 +1,49 @@
 *{
-    box-sizing: border-box;
-    text-align: center;
+     text-align: center;
     background: whitesmoke;
         }
+
 header{
-    padding: 30px;
+    padding: 50px;
     margin-bottom: 25px;
-    color: grey;
     background: white;
     }
     #topleft{
         float: right;
-        background: lightseagreen;
+        background: white;
+       
     }
 #yourname {
     float: left;
-    width: 100px;
-    height: 100px;
-    margin-top: 0%;
-    margin-left: 0px;
-    padding: 10px;
-    text-decoration-color: whitesmoke;
+    box-sizing: content-box;
+    width:150px;
+    height: 150px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-decoration-color: white;
     background: rgb(49, 223, 199)
+    }
+    body {
+        box-sizing: content-box;
+        height: 960px;
+        width: 960px;
+        background: rgb(190, 187, 181);
+
     }
     p{
         color: black;
+
     }
     #bio-img{
         float: left;
         width: 200px;
         height: 200px;
-        margin-left: 25px;
+        margin-left: 5px;
         padding: 20px;
         border: 2px solid #eee;
     }
+footer{
+    padding: 50px;
+    clear: both;
+    background: grey;
+}
