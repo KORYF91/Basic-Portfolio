@@ -15,8 +15,20 @@ header{
     }
     #TopLeft{
         float: right;
-        background: white;
+        color: gray;
+        padding: 10px;
        
+    }
+    #TopMiddle{
+        float: right;
+        color: gray;
+        padding: 10px;
+    }
+    #TopRight{
+        float: right;
+        color: gray;
+        padding: 10px;
+        margin:
     }
 #YourName {
     float: left;
@@ -25,35 +37,34 @@ header{
     margin-left: 30px;
     color: white;
     text-size-adjust: 45px;
-    background: rgb(49, 223, 199);
+    background-color:#4aaaa5;
+    text-align: center;
  
     }
     h1{
         float: left;
         text-size-adjust: 25px;
-        color: rgb(49, 223, 199);
-
+        color: #4aaaa5;
+        margin-left: 20px;
     }
     .wrapper {
         box-sizing: content-box;
-        height: 960px;
-        width: 960px;
+        margin: 0 auto;
+        max-width: 960px;
         background: rgb(255, 254, 253);
+        padding: 20px
 
     }
     p{
         color: black;
-        box-sizing: border-box;
         background: white;
-
-
     }
     #bio-img{
         float: left;
         width: 200px;
         height: 200px;
         margin-left: 5px;
-        padding: 20px;
+        padding: 5px;
         border: 2px solid #eee;
     }
 footer{
