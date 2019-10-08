@@ -13,12 +13,12 @@ header{
     text-size-adjust: 45px;
   
     }
-    #topleft{
+    #TopLeft{
         float: right;
         background: white;
        
     }
-#yourname {
+#YourName {
     float: left;
     width:150px;
     height: 95px;
