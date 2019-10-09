@@ -1,70 +1,72 @@
-header{
-    padding: 10px;
+ body {
+    margin: 0;   
+}
+
+.wrapper {
+        max-width: 960px;
+        max-height: 960px;
+        background: #ffffff;
+}
+
+.header {
+    background: #ffffff;
     width: 100%;
-    height: 75px;
-    box-sizing: content-box;
-    margin-bottom: 25px;
-    background: white;
-    text-size-adjust: 45px;
-  
-    }
-    #TopLeft{
-        float: right;
-        color: gray;
-        padding: 10px;
-       
-    }
-    #TopMiddle{
-        float: right;
-        color: gray;
-        padding: 10px;
-    }
-    #TopRight{
-        float: right;
-        color: gray;
-        padding: 10px;
-        margin:
-    }
+    height: 60px;
+    border-bottom-color: #666666;
+
+}       
+
 #YourName {
     float: left;
-    width:150px;
-    height: 95px;
-    margin-left: 30px;
+    padding: 0 0 0 0;
+    width: 200px;
+    height: 60px;
+    margin-left: 40px;
     color: white;
-    text-size-adjust: 45px;
     background-color:#4aaaa5;
-    text-align: center;
- 
-    }
-    h1{
-        float: left;
-        text-size-adjust: 25px;
-        color: #4aaaa5;
-        margin-left: 20px;
-    }
-    .wrapper {
-        box-sizing: content-box;
-        margin: 0 auto;
-        max-width: 960px;
-        background: rgb(255, 254, 253);
-        padding: 20px
-
-    }
-    p{
-        color: black;
-        background: white;
-    }
-    #bio-img{
+    text-align: center; 
+    font-size: 18pt;
+}
+.nav {
+    float: right;
+    
+}
+.about_me { 
+    padding: 30px 30px 30px 30px; 
+    color: #4aaaa5;
+    margin-left: 20px;
+    font-size: 35pt;
+    font-style: bold;
+}
+    
+    
+#bio-img{
         float: left;
         width: 200px;
         height: 200px;
-        margin-left: 5px;
-        padding: 5px;
+        margin: 5px 5px 5px 5px;
+        padding: 5px 5px 5px 5px;
         border: 2px solid #eee;
-    }
+}
+
+p{
+    color: black;
+    background: white;
+    font-size: 16pt;
+
+}
+
+#bottom {
+    width: 100%;
+    background: #4aaaa5;
+    height: 22%;
+}
+
 footer{
     padding: 10px;
     clear: both;
     background: grey;
     width: 100%;
+    text-align: center;
+    
 }
