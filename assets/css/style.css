@@ -1,6 +1,6 @@
  body {
-
-}
+    background-image: url(../images/black_thread/black_thread_@2X.png);
+  }
 
 .header {
     background: #ffffff;
@@ -15,6 +15,7 @@
 }
 .nav1 {
     float:right;
+    margin-right: 5%;
     font-size: 13pt;
     padding: 10px;
     color: #777777;
@@ -45,10 +46,6 @@
     font-size: 18pt;
 }
     
-    .nav {
-    float: right;
-    
-}
 .wrapper {
     padding: 50px;
     margin: 50px;
@@ -61,11 +58,11 @@
     border-width: 7px;
 }
 .about_me { 
-    padding: 30px 30px 30px 30px; 
+    padding: 0px; 
     color: #4aaaa5;
     margin-left: 20px;
     font-size: 35pt;
-    font-style: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
     
     
