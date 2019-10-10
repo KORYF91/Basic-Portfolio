@@ -1,11 +1,8 @@
  body {
     margin: 0;   
-}
+    max-width: 1000px;
+    max-height: 1000px;
 
-.wrapper {
-        max-width: 960px;
-        max-height: 960px;
-        background: #ffffff;
 }
 
 .header {
@@ -14,6 +11,21 @@
     height: 60px;
     border-bottom-color: #666666;
 
+}
+.nav1 {
+    float:right;
+    font-size: 13pt;
+    padding: 10px;
+}       
+.nav2 {
+    float:right;
+    font-size: 13pt;
+    padding: 10px;
+}       
+.nav3 {
+    float:right;
+    font-size: 13pt;
+    padding: 10px;
 }       
 
 #YourName {
@@ -21,7 +33,7 @@
     padding: 0 0 0 0;
     width: 200px;
     height: 60px;
-    margin-left: 40px;
+    margin-left: 145px;
     color: white;
     background-color:#4aaaa5;
     text-align: center; 
@@ -30,6 +42,15 @@
 .nav {
     float: right;
     
+}
+.wrapper {
+    padding: 50px;
+    margin: 50px;
+    max-width: 960px;
+    max-height: 960px;
+    background: #ffffff;
+    margin-left: 100px;
+    border-color:  #dddddd;
 }
 .about_me { 
     padding: 30px 30px 30px 30px; 
@@ -40,7 +61,7 @@
 }
     
     
-#bio-img{
+#bio-img {
         float: left;
         width: 200px;
         height: 200px;
@@ -49,24 +70,26 @@
         border: 2px solid #eee;
 }
 
-p{
+p {
+    padding: 20px 20px 20px 20px;
     color: black;
     background: white;
     font-size: 16pt;
 
 }
 
-#bottom {
+#bottom_line {
+    padding: 5px;
     width: 100%;
     background: #4aaaa5;
-    height: 22%;
+    height: 20px;
 }
 
 footer{
-    padding: 10px;
-    clear: both;
-    background: grey;
+    padding: 15px;
+    background: #666666;
     width: 100%;
     text-align: center;
+    overflow: hidden;
     
 }
