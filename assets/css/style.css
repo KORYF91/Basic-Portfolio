@@ -100,4 +100,5 @@ footer{
     text-align: center;
     overflow: visible;
     align-content: stretch;
+    place-content: bottom;
 }
