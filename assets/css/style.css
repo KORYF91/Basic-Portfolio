@@ -86,11 +86,12 @@ p {
 }
 
 #bottom_line {
+    position: absolute;
+    bottom: 0;
     padding: 3px;
     min-height: 10px;
     width: 100%;
     background: #4aaaa5;
-    height: 5px;
     align-content: stretch;
     overflow-anchor: visible;
 }
