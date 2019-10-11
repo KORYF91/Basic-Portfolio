@@ -56,6 +56,7 @@
     border-color:#dddddd;
     border-width: 3px;
     position: relative;
+    overflow: auto;
 
 }
 .about_me { 
@@ -106,31 +107,57 @@ h2 {
 .bio-img1{
 
     position: relative;
-
+    padding : 20 auto;
+    margin: 0 auto;
 
 }
 
 .bio-img2{
-    
+    padding : 20 auto;
+    margin: 0 auto;
+
 
 }
 
 .bio-img3{
-    
+    padding : 20 auto;
+    margin: 0 auto;
+
 
 }
 
 .bio-img4{
-    
+    padding : 20 auto;
+    margin: 0 auto;
+
 
 }
 
 .bio-img5{
+    padding : 20 auto;
+    margin: 0 auto;
+
     
 }
 
-.SUBMIT {
-    
+a {
+    padding : 20 auto;
+    margin: 0 auto;
+   
+}
+
+a:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+
+}
+
+a:focus {
+    background-color: greenyellow;
+}
+
+a:active {
+    cursor: progress;
 }
 
 footer {
