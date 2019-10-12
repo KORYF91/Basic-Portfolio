@@ -36,10 +36,11 @@
 
 #YourName {
     float: left;
+    position: absolute;
     padding: 15px 0 15px 0;
     width: 200px;
     height: 30px;
-    margin-left: 155px;
+    margin-left: 200px;
     color: #ffffff;
     background-color:#4aaaa5;
     text-align: center; 
@@ -110,6 +111,7 @@ h2 {
     padding : 20 auto;
     margin: 0 auto;
 
+
 }
 
 .bio-img2{
@@ -143,7 +145,7 @@ h2 {
 a {
     padding : 20 auto;
     margin: 0 auto;
-   
+    
 }
 
 a:hover {
@@ -160,8 +162,33 @@ a:active {
     cursor: progress;
 }
 
+.text {
+    float: left;
+    text-align: center;
+    padding: 5px;
+    width: auto;
+    height: 15px;
+    position: relative;
+    
+   
+}
+
+.text:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+
+}
+
+.text:focus {
+    background-color: greenyellow;
+}
+
+.text:active {
+    cursor: progress;
+}
+
 footer {
-    position: fixed;
+    position: sticky;
     bottom: 0;
     padding: 15px;    
     width: 100%;
