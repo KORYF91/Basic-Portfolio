@@ -49,7 +49,7 @@
     
 .wrapper {
     padding: 50px;
-    margin: 50px auto;
+    margin: 50px auto 300px auto;
     max-width: 960px;
     max-height: 960px;
     background: #ffffff;
@@ -71,12 +71,12 @@
     
     
 #bio-img {
-        float: left;
-        width: 200px;
-        height: 200px;
-        margin: 15px 15px 15px 15px;
-        padding: 5px 5px 5px 5px;
-        border: 2px solid #eee;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 15px 15px 15px 15px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid #eee;
 }
 
 
@@ -168,15 +168,13 @@ a:active {
     padding: 5px;
     width: auto;
     height: 15px;
-    position: relative;
-    
-   
+    position: absolute;
+    z-index: 1;
 }
 
 .text:hover {
     cursor: pointer;
     background-color: blueviolet;
-
 }
 
 .text:focus {
@@ -200,5 +198,4 @@ footer {
     border-top-color: #4aaaa5;
     border-top-width: 7px;
     color: #ffffff;
-   
 }
